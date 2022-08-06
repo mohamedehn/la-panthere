@@ -309,6 +309,8 @@ a:hover {
 
 .navbar-brand img[src$=svg] {
     min-width: 100px;
+    height: 40px;
+    width: 100%;
 }
 
 .nav-center .navbar-brand img {
@@ -684,6 +686,11 @@ p {
     margin: auto auto auto auto;
 }
 
+.col-sm-12 .center-block{
+    height: 100%;
+    width: 17.5%;
+}
+
 .h1 {
     font-size: 20px;
     font-family: "Open Sans";
@@ -741,6 +748,7 @@ h4 {
 .portfolio-thumb {
     margin-bottom: 24px;
     width: 100%;
+    height: 100%;
 }
 
 .portfolio-row {
@@ -818,11 +826,11 @@ h4 {
 }
 
 .bg-banniere {
-    background-image: url("img/agence-la-panthere.jpg");
+    background-image: url("img/agence-la-panthere.webp");
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation.webp");
 }
 
 @media (max-width: 1024px) {
