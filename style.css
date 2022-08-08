@@ -709,6 +709,8 @@ p {
 .social {
     max-width: 400px;
     margin: auto auto auto auto;
+    display: flex;
+    justify-content: space-around;
 }
 
 h2 {
@@ -790,7 +792,17 @@ h4 {
 .btn-atomic-tangerine {
     background: #b85d39;
     color: #FFFFFF!important;
-    width: 25%;
+    width: 24%;
+}
+
+.btn-send{
+    width: 39%;
+}
+
+@media (max-width : 767px){
+    .btn-atomic-tangerine{
+        width: 37%;
+    }
 }
 
 .btn-atomic-tangerine:hover {
